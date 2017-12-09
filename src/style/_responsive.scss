@@ -238,9 +238,6 @@
   fieldset {
     width: 98%;
   }
-}
-
-@media screen and (max-width: 475px) {
   .turn-off, .turn-on {
     position: absolute;
     left: -57px;
@@ -336,6 +333,8 @@
   }
 
 }
+
+
 @media screen and (max-width: 326px) {
   input {
     min-width: 83%!important;

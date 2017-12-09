@@ -8,7 +8,13 @@ $("#LDbutt").click(function() {
         $('body, html').css("background", "#000000").css("transition-duration", "600ms");
         $('#apod_img_id, .video').css("max-height", "unset").css("height", "unset").css("top", "50%").css("transform", "translateY(-50%)");
         $('.api-info').css("max-width", "unset").css("height", "100vh").css("margin-top", "unset").css("left", "50%").css("transform", "translateX(-50%)");
-        $('#buttonB').css("bottom", "30px").css("left", "50%").css("transform", "translateX(-50%)").css("top", "unset").css("right", "unset");
+
+        const mq = window.matchMedia( "(max-width: 475px)" );
+        if (mq.matches) {
+            $('#buttonB').css("bottom", "157px").css("left", "50%").css("transform", "translateX(-50%)").css("top", "unset").css("right", "unset");
+        } else {
+            $('#buttonB').css("bottom", "30px").css("left", "50%").css("transform", "translateX(-50%)").css("top", "unset").css("right", "unset");
+        }
     } else {
         $("#LDbutt").val("Full screen");
         $('#content').css("width", "").css("position", "").css("top", "").css("left", "");
