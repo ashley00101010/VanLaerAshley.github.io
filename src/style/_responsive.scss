@@ -1,0 +1,485 @@
+@media screen and (max-width: 1200px) {
+  .scrollMarsData {
+    overflow-y: scroll;
+    margin: 15px;
+    height: 611px;
+  }
+}
+@media screen and (min-width: 1200px) {
+
+  .second-api {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 34%;
+    height: 105%;
+    position: absolute;
+    left: 572px;
+    top: 0;
+    max-width: 380px;
+    transform: translateX(0);
+
+  }
+
+  .api-info{
+    float: left;
+    left: 0;
+    transform: translate(0);
+  }
+  #content {
+      position: absolute;
+      width:72%;
+      left:308px;
+      height: 702px;
+      top:37px;
+    transform: translateX(0);
+  }
+}
+
+@media screen and (min-width: 1230px) {
+  .second-api {
+    width: 38%;
+  }
+
+}
+@media screen and (min-width: 730px) {
+  #content {
+    position: absolute;
+    width: calc(100% - 268px);
+    right: 0;
+    height: 702px;
+    top: 37px;
+  }
+  .contact {
+    display: block;
+    display: none;
+    background-color: #edf0f6;
+    height: 100vh;
+    position: fixed;
+    z-index: 201;
+    width: calc(100% - 268px);
+    right: 0;
+  }
+}
+@media screen and (max-width: 730px) {
+
+
+  .NasaApod {
+    height: 0;
+    border-bottom: none;
+  }
+  .aside h1 {
+    position: relative;
+    color: #fff;
+    top: 23px;
+    left: -6px;
+    font-size: 29px;
+  }
+  .toggleWrapper {
+    position: absolute;
+    overflow: hidden;
+    padding: 0 200px;
+    top: 10px;
+    left: -165px;
+  }
+  .aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 81px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #1b2939;
+    z-index: 200;
+  }
+  .logoAside {
+    width: 79px;
+    margin: 5px 0 0 5px;
+    float: left;
+  }
+  .NasaApod ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .NasaApod ul li {
+    list-style: none;
+    display: inline-block;
+    width: 49%;
+  }
+  .NasaApod ul {
+    list-style: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1b2939;
+  }
+  .NasaApod ul li a img {
+    position: relative;
+    width: 39px;
+    margin-right: 33px;
+    top: 19px;
+    left: 43px;
+  }
+  .NasaApod ul li a p {
+    font-size: 25px;
+    letter-spacing: 1.4px;
+    position: relative;
+    left: 99px;
+    bottom: 16px;
+    width: 0;
+  }
+  .turn-off, .turn-on {
+    position: absolute;
+    left: -107px;
+    top: 19px;
+    width: 141px;
+    font-size: 17px;
+    color: #fff;
+  }
+  .turn-on {
+    visibility: hidden;
+  }
+  .quickSettings {
+    z-index: 400;
+    position: fixed;
+    right: 111px;
+    top: 16px;
+  }
+  .quickSettings h3{
+    visibility: hidden;
+  }
+  .NasaApod ul li a div {
+    width: 102%;
+    height: 75px;
+    transition-duration: .6s;
+  }
+  .line{
+    border-right: 4px solid #192332;
+  }
+  .selected,
+  .NasaApod ul li a div:hover {
+    transition-duration: .6s;
+    background: linear-gradient(to top,#205fac,transparent 80%),#1b2939;
+    border-bottom: 1px solid #fff;
+  }
+  #content {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    height: 702px;
+    top: 37px;
+  }
+  .contact {
+    display: block;
+    display: none;
+    background-color: #edf0f6;
+    height: 100vh;
+    position: fixed;
+    z-index: 201;
+    width: 100%;
+    right: 0;
+  }
+  .second-api {
+    margin-bottom: 115px;
+    height: 700px;
+  }
+
+  .api-info{
+    margin-top: 58px;
+  }
+  .scrollMarsData {
+    overflow-y: scroll;
+    margin: 15px;
+    height: 610px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .NasaApod ul li a p {
+    font-size: 21px;
+    letter-spacing: 1.4px;
+    position: relative;
+    left: 76px;
+    bottom: 5px;
+    width: 0;
+  }
+  .NasaApod ul li a img {
+    position: relative;
+    width: 31px;
+    margin-right: 33px;
+    top: 23px;
+    left: 33px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .api-info #copyright {
+    top: 72px;
+  }
+  .aside h1 {
+    top: 23px;
+  }
+  #apod_explaination {
+    font-size: 14px;
+  }
+  .turn-off, .turn-on {
+    position: absolute;
+    left: -82px;
+    top: 19px;
+    font-size: 13px;
+    color: #fff;
+  }
+
+  .api-info h1 {
+    width: unset;
+  }
+  fieldset {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .turn-off, .turn-on {
+    position: absolute;
+    left: -57px;
+    top: 22px;
+    font-size: 10px;
+  }
+  .api-info #copyright {
+    position: absolute;
+    top: 66px;
+  }
+  .aside h1 {
+    position: relative;
+    color: #fff;
+    top: 25px;
+    left: -6px;
+    font-size: 24px;
+  }
+  .NasaApod ul li a div {
+    width: 102%;
+    height: 51px;
+  }
+  .NasaApod ul li a img {
+    position: relative;
+    width: 26px;
+    margin-right: 33px;
+    top: 15px;
+    left: 16px;
+  }
+  .NasaApod ul li a p {
+    font-size: 17px;
+    letter-spacing: 1.4px;
+    position: relative;
+    left: 49px;
+    bottom: 9px;
+    width: 0;
+  }
+  .contact .message {
+    position: relative;
+    bottom: 0!important;
+  }
+  label {
+    display: inline-block;
+    min-width: 14%;
+    float: left;
+    width: 78%!important;
+    font-size: .875rem;
+    margin-bottom: 2px;
+  }
+
+  .contact textarea {
+    padding-left: 10px;
+    display: inline-block;
+    min-width: 87%!important;
+  }
+  input[type=submit] {
+    background-color: #205fac;
+    position: relative;
+    left: calc(50% - 17px)!important;
+    transform: translateX(-50%);
+    top: 10px;
+    height: 38px;
+    width: 91%;
+  }
+  input {
+    min-width: 87%!important;
+  }
+  .tooltip {
+    top: 23px!important;
+  }
+  .form {
+    width: 91%;
+  }
+  fieldset {
+    position: absolute;
+    top: 50%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    max-width: 550px;
+    width: 97%!important;
+  }
+  .toggle {
+    width: 62px!important;
+  }
+  select {
+    width: 29.4%!important;
+  }
+  fieldset h1 {
+    margin: 23px 0 0 22px!important;
+  }
+  .contact h3 {
+    margin: 10px 0 0 22px!important;
+  }
+
+}
+@media screen and (max-width: 326px) {
+  input {
+    min-width: 83%!important;
+  }
+  select {
+    width: 28.2%!important;
+  }
+  .contact textarea {
+    min-width: 83%!important;
+  }
+  input[type=submit] {
+    width: 88%;
+  }
+  .form {
+    width: 95%;
+  }
+  .contact {
+    height: 106vh;
+  }
+  .contact textarea {
+    height: 42px!important;
+  }
+  .aside h1 {
+    position: relative;
+    color: #fff;
+    top: 28px;
+    left: -6px;
+    font-size: 20px;
+  }
+  .logoAside {
+    width: 67px;
+    margin: 10px 0 0 5px;
+    float: left;
+  }
+  .turn-off, .turn-on {
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    font-size: 10px;
+  }
+  .toggleWrapper {
+    top: 19px!important;
+    right: -180px!important;
+  }
+  #APOD {
+    position: relative;
+    top: -3px;
+    font-size: 14px;
+  }
+
+
+}
+/*Iphone 4 landscape*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .aside, .quickSettings, .textBox, .second-api, #apod_title, #APOD, #copyright{
+    display:none;
+  }
+  .api-info {
+    position: fixed;
+    margin:0;
+    width: 100%;
+  }
+  section {
+    padding: 0;
+  }
+  #content {
+    top: 0;
+  }
+  #apod_img_id, .video {
+    top: 8px!important;
+  }
+  body, html{
+    background: #000000;
+  }
+  #buttonB{
+    display: none
+  ;
+  }
+}
+
+/* Landscape Iphone 5*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .aside, .quickSettings, .textBox, .second-api, #apod_title, #APOD, #copyright{
+    display:none;
+  }
+  .api-info {
+    position: fixed;
+    margin:0;
+    width: 84%!important;
+  }
+  section {
+    padding: 0;
+  }
+  #content {
+    top: 0;
+  }
+  #apod_img_id, .video {
+    top: 8px;
+  }
+  body, html{
+    background: #000000;
+  }
+  #buttonB{
+    display: none
+  ;
+  }
+}
+
+/* Landscape Iphone 6*/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .aside, .quickSettings, .textBox, .second-api, #apod_title, #APOD, #copyright{
+    display:none;
+  }
+  .api-info {
+    position: fixed;
+    margin:0;
+    width: 100%!important;
+  }
+  section {
+    padding: 0;
+  }
+  #content {
+    top: 0;
+  }
+  #apod_img_id, .video {
+    top: 13px;
+  }
+  body, html{
+    background: #000000;
+  }
+  #buttonB{
+    display: none
+  ;
+  }
+}

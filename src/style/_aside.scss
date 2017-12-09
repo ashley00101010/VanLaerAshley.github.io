@@ -1,0 +1,109 @@
+@media screen and (min-width: 730px) {
+  .aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 268px;
+    box-sizing: border-box;
+    background-color: $aside--background--color;
+    z-index: 200;
+  }
+  .logoAside {
+    width: 100px;
+    margin: 14px 0 0 14px;
+    float: left;
+  }
+
+  .aside h1 {
+    position: relative;
+    color: #fff;
+    top: 40px;
+    left: -6px;
+    font-size: 29px;
+  }
+
+  .NasaApod {
+    height: 111px;
+    border-bottom: 4px solid #192332;
+  }
+
+  .NasaApod ul {
+    list-style: none;
+    position: absolute;
+    top: 116px;
+  }
+
+  .NasaApod ul li {
+    list-style: none;
+  }
+
+  .NasaApod ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .NasaApod ul li a img {
+    position: relative;
+    width: 39px;
+    margin-right: 33px;
+    top: 26px;
+    left: 43px;
+  }
+  .NasaApod ul li a p {
+    font-size: 25px;
+    letter-spacing: 1.4px;
+    position: relative;
+    left: 99px;
+    bottom: 9px;
+    width: 0;
+  }
+
+  .NasaApod ul li a div {
+    width: 267px;
+    height: 95px;
+    border-bottom: 4px solid #192332;
+  }
+
+  .selected {
+    background: linear-gradient(to right, #205fac, transparent 100%), rgba(27, 41, 57, 1);
+    border-left: 1px solid #fff;
+  }
+
+  .NasaApod ul li a div:hover {
+    background: linear-gradient(to right, #205fac, transparent 100%), rgba(27, 41, 57, 1);
+    border-left: 1px solid #fff;
+
+  }
+
+  .quickSettings {
+    position: fixed;
+    z-index: 300;
+    left: 138px;
+    bottom: 62px;
+  }
+
+  .quickSettings h3 {
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    top: -49px;
+    left: -124px;
+  }
+
+  .turn-on {
+    visibility: hidden;
+  }
+
+  .turn-off,
+  .turn-on {
+    position: absolute;
+    left: -120px;
+    top: 17px;
+    width: 138px;
+    font-size: 17px;
+    color: #fff;
+
+  }
+}

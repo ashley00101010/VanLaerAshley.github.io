@@ -1,0 +1,157 @@
+
+
+fieldset{
+  position: absolute;
+  top: 50%;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  max-width: 550px;
+  width: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+select{
+  padding-left: 10px;
+  background-color: #ffffff;
+  width: 23.7%;
+  height: 33px;
+  -webkit-appearance: none;
+  border-radius: 0;
+  border:1px solid lightgray;
+}
+
+section {
+  padding: 3px 0;
+  position: relative;
+}
+
+select:focus{
+  border:1px solid #205fac;
+  outline: none;
+}
+
+input {
+  padding-left: 10px;
+  display: inline-block;
+  min-width: 70%;
+  height: 30px;
+  border:1px solid lightgray;
+}
+
+input:focus {
+  border:1px solid #205fac;
+  outline: none;
+}
+
+label {
+  display: inline-block;
+  min-width: 14%;
+  width: 15%;
+  font-size: 0.875rem;
+}
+
+
+.tooltip {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 9px;
+  width: 20px;
+  height: 20px;
+  background-color: #205fac;
+  color: #fff;
+}
+
+.tooltip:hover {
+  background-color: #205fac;
+}
+
+.tooltip p{
+  text-align: center;
+  position: relative;
+  top: 2px;
+  cursor: default;
+  font-size: 16px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #205fac;
+  color: #fff;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 18px;
+  padding: 15px;
+  position: absolute;
+  top: 25px;
+  right: -64px;
+  cursor: default;
+  z-index: 1;
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip-bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #205fac transparent;
+}
+input[type=submit]{
+  background-color: #205fac;
+  position: relative;
+  left: 15.5%;
+  top: 10px;
+  height: 38px;
+  width: 74%;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+}
+
+input[type=submit]:hover{
+  background-color: #1b2939;
+  transition-duration: 600ms;
+}
+
+.form{
+  padding-top: 10px;
+  position: relative;
+  width: 90%;
+  left: 50%;
+  margin: 0px 0 40px 0;
+  transform: translateX(-50%);
+}
+
+fieldset h1 {
+  margin: 40px 0 0 40px;
+}
+.contact h3 {
+margin: 10px 0 0 40px;
+}
+
+.contact textarea{
+  padding-left: 10px;
+  display: inline-block;
+  min-width: 70%;
+  height: 80px;
+  border: 1px solid #d3d3d3;
+}
+
+.contact .message{
+  position: relative;
+  bottom: 68px;
+}

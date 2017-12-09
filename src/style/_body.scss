@@ -1,0 +1,161 @@
+body, html {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 15px;
+	background: #edf0f6;
+}
+
+// Style selected text.
+::selection {
+}
+
+#myDiv{
+	position: relative;
+	max-width: 100vw;
+}
+
+.api-info{
+	position: relative;
+	max-width: 550px;
+	width: 90%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.textBox{
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	width: 100%;
+	position: relative;
+	top: 59px;
+	margin-bottom: 40px;
+}
+
+.scrollBox{
+	overflow-y:scroll;
+	height: 193px;
+
+}
+
+#apod_img_id,
+.video{
+	width: 100%;
+	position: relative;
+	top: 41px;
+	border-radius: 5px;
+	max-height: 367px;
+	height: 50%;
+}
+
+.api-info h1{
+	position: relative;
+	top:-6px;
+	width:500px;
+}
+
+#APOD{
+	position: relative;
+	top: -3px;
+	font-size: 16px;
+}
+.api-info #copyright{
+	position: absolute;
+	top: 74px;
+	right: 0;
+	font-size: 12px;
+}
+#apod_explaination{
+	font-size: 12px;
+	letter-spacing: 1.4px;
+	line-height: 17px;
+}
+
+.player .video-wrapper video {
+	border-radius: 5px;
+}
+
+.scrollBox{
+	margin:15px;
+}
+
+.textBoxTitle{
+	margin:15px 0 0 15px;
+}
+
+.second-api{
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	max-width: 550px;
+	width: 90%;
+	height: 100%;
+	position: relative;
+	top: 38px;
+	margin-bottom: 36px;
+	left:50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+
+.rover_image{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+#apiData{
+	width: 100%;
+	position: relative;
+	left:50%;
+	transform: translateX(-50%);
+	margin-bottom: 10px;
+}
+.scrollMarsData {
+  overflow-y: scroll;
+  margin: 15px;
+  height: 651px;
+}
+
+#apiData h1 {
+	font-size:25px;
+	margin: 10px 0;
+}
+.apiText{
+	font-size: 12px;
+	margin: 5px 0;
+	line-height: 16px;
+}
+.status_rover{
+	font-size: 12px;
+	float: right;
+}
+.pfy_paragraph{
+	font-size: 16px;
+	margin-left: 15px;
+  margin-top: 3px;
+}
+.second-api h1 {
+	margin: 12px 0 0 15px;
+}
+#buttonB{
+  position: absolute;
+  top: 98px;
+  right: 6px;
+}
+
+#buttonB input{
+  border-radius: unset;
+  cursor: pointer;
+  background-color: #205fac;
+  color: #fff!important;
+  border:unset!important;
+}
+
+#buttonB input:hover{
+  transition-duration: 600ms;
+  background-color: #1b2939;
+}
