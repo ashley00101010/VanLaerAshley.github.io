@@ -8,6 +8,11 @@ body, html {
 ::selection {
 }
 
+input {
+	-webkit-appearance: none;
+	-webkit-border-radius:0px;
+}
+
 #myDiv{
 	position: relative;
 	max-width: 100vw;
