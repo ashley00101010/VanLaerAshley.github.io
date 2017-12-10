@@ -32,6 +32,27 @@
 	</div>
 </div>
 <div style="display:none;" id="myDiv">
+
+	<section class="quickSettings">
+		<p class="turn-on">Turn lights on</p>
+		<p class="turn-off">Turn lights off</p>
+		<div class="toggleWrapper" id="buttonBox">
+			<input type="checkbox" class="dn" id="dn" value="Light off"/>
+			<label for="dn" class="toggle">
+					<span class="toggle__handler">
+					  <span class="crater crater--1"></span>
+					  <span class="crater crater--2"></span>
+					  <span class="crater crater--3"></span>
+					</span>
+				<span class="star star--1"></span>
+				<span class="star star--2"></span>
+				<span class="star star--3"></span>
+				<span class="star star--4"></span>
+				<span class="star star--5"></span>
+				<span class="star star--6"></span>
+			</label>
+		</div>
+	</section>
 	<div class="ApiDashboard">
 	<aside class="aside">
 		<section class="NasaApod">
@@ -46,37 +67,18 @@
 		</section>
 	</aside>
 
-		<section class="quickSettings">
-			<p class="turn-on">Turn lights on</p>
-			<p class="turn-off">Turn lights off</p>
-			<div class="toggleWrapper" id="buttonBox">
-				<input type="checkbox" class="dn" id="dn" value="Light off"/>
-				<label for="dn" class="toggle">
-					<span class="toggle__handler">
-					  <span class="crater crater--1"></span>
-					  <span class="crater crater--2"></span>
-					  <span class="crater crater--3"></span>
-					</span>
-					<span class="star star--1"></span>
-					<span class="star star--2"></span>
-					<span class="star star--3"></span>
-					<span class="star star--4"></span>
-					<span class="star star--5"></span>
-					<span class="star star--6"></span>
-				</label>
-			</div>
-		</section>
-
     <section id="content">
-        <div class="api-info">
+        <div class="api-info" id="api-info">
             <h1 id="apod_title" title="Astronomy Picture Of the Day"></h1>
             <p id="APOD" title="APOD">Astronomy picture of the day</p>
+			<p id="copyright" title="copyright"></p>
+			<div class="buttonWrap">
+				<div id="buttonB">
+					<input type="button" id="LDbutt" value="Full screen">
+				</div>
+			</div>
             <img id="apod_img_id" width="250px"/>
             <iframe id="apod_vid_id" class="video" type="text/html" width="640" height="385" frameborder="0"></iframe>
-			<div id="buttonB">
-				<input type="button" id="LDbutt" value="Full screen">
-			</div>
-            <p id="copyright" title="copyright"></p>
             <div class="textBox">
                 <p class="textBoxTitle">Explanation:</p>
                 <div class="scrollBox">
@@ -306,12 +308,14 @@
 </section>
 </div>
     <script src="script/app.min.js"></script>
-	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="script/ApodApi.js"></script>
 	<script src="script/RoverOnMarsApi.js"></script>
 	<script src="script/light-dark.js"></script>
 	<script src="script/PageSwitch.js"></script>
 	<script src="script/toggle.js"></script>
+	<script src="script/jquery.ba-throttle-debounce.min.js"></script>
+	<script src="script/jquery-responsive-headlines.min.js"></script>
 	<script>
 		var myVar;
 
@@ -324,5 +328,7 @@
 		document.getElementById("myDiv").style.display = "block";
 		}
 	</script>
+
+
 </body>
 </html>

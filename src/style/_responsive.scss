@@ -245,8 +245,8 @@
     font-size: 10px;
   }
   .api-info #copyright {
-    position: absolute;
-    top: 66px;
+    position: relative;
+    top: 15px;
   }
   .aside h1 {
     position: relative;
@@ -408,7 +408,7 @@ and (orientation: landscape) {
     top: 0;
   }
   #apod_img_id, .video {
-    top: 8px!important;
+    top: -13px!important;
   }
   body, html{
     background: #000000;
@@ -440,7 +440,7 @@ and (orientation: landscape) {
     top: 0;
   }
   #apod_img_id, .video {
-    top: 8px;
+    top: -8px;
   }
   body, html{
     background: #000000;
@@ -472,7 +472,7 @@ and (orientation: landscape) {
     top: 0;
   }
   #apod_img_id, .video {
-    top: 13px;
+    top: 1px;
   }
   body, html{
     background: #000000;
