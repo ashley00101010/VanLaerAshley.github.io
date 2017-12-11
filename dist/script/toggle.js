@@ -6,14 +6,16 @@ $("#LDbutt").click(function() {
         $('.aside, .quickSettings, .textBox, .second-api, #apod_title, #APOD, #copyright').css("display", "none");
         $('#content').css("width", "100%").css("position", "fixed").css("top", "0").css("left", "unset");
         $('body, html').css("background", "#000000").css("transition-duration", "600ms");
-        $('#apod_img_id, .video').css("max-height", "unset").css("height", "unset").css("top", "50%").css("transform", "translateY(-50%)").css("position", "absolute");
+        $('#apod_img_id').css("max-height", "unset").css("height", "unset").css("top", "50%").css("transform", "translateY(-50%)").css("position", "absolute");
         $('.api-info').css("max-width", "unset").css("height", "100vh").css("margin-top", "unset").css("left", "50%").css("transform", "translateX(-50%)");
         $('.buttonWrap').css("position", "unset");
 
         const mq = window.matchMedia( "(max-width: 475px)" );
         if (mq.matches) {
+            $('.video').css("height", "500px").css("top", "50%").css("transform", "translateY(-50%)").css("position", "absolute");
             $('#buttonB').css("bottom", "157px").css("left", "50%").css("transform", "translateX(-50%)").css("top", "unset").css("right", "unset").css("position", "absolute").css("width", "auto");
         } else {
+            $('.video').css("height", "100vh").css("top", "50%").css("transform", "translateY(-50%)").css("position", "absolute");
             $('#buttonB').css("bottom", "30px").css("left", "50%").css("transform", "translateX(-50%)").css("top", "unset").css("right", "unset").css("position", "absolute").css("width", "auto");
         }
     } else {
