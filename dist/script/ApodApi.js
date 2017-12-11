@@ -13,7 +13,7 @@ $.ajax({
 
         if(result.media_type == "video") {
             $("#apod_img_id").css("display", "none");
-            $("#apod_vid_id").attr("src", result.hdurl);
+            $("#apod_vid_id").attr("src", result.url);
         }
         else {
             $("#apod_vid_id").css("display", "none");
